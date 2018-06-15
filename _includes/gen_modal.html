@@ -1,0 +1,26 @@
+<div class="row">
+  <!-- Modal Trigger -->
+  {% for i in (0..2) %}
+  <div class="col s12 m4">
+    <div class="fixh-container">
+
+      <a class="modal-trigger" href="#modal1">
+        <img class="of cover" src="https://readysetbored.com/wp-content/uploads/2014/03/earthporn/Thumb-634x294.jpg">
+      </a>
+
+      <!-- Modal Structure -->
+      <div id="modal1" class="modal">
+        <div class="modal-content">
+          <h4>Modal Header</h4>
+          <p>A bunch of text</p>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+        </div>
+      </div>
+
+    </div>
+    <br>
+  </div>
+  {% endfor %}
+</div>

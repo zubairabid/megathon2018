@@ -355,6 +355,10 @@ nav ul a {
 .fixwh-container.stout {
   width: 8rem;
 }
+.fixwh-container.max {
+  width: 100%;
+  height: 50vh;
+}
 
 .of {
   height: 100%;

@@ -7,6 +7,8 @@ $(document).ready(function() {
   	closeOnClick: true
   });
 
+  $('.modal').modal();
+
   $('.scrollspy').scrollSpy();
 });
 
