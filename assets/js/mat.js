@@ -24,7 +24,7 @@ $(document).scroll(function(){
 });
 $(document).ready(function(){
     $('.fixed-action-btn').floatingActionButton({
-      direction: 'bottom',
+      direction: 'top',
       hoverEnabled: false,
     });
   });

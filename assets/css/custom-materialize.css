@@ -157,8 +157,8 @@
 
 .fixed-action-btn{
   z-index:1300;
-  top: 23px;
-  bottom: unset;
+  right: unset;
+  left: 23px;
 }
 #floatnav .btn-floating{
   border-radius: unset;
